@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-ignis-{{ version }}.tar.gz
   sha256: 71efb17933717c0b8161a291ebd4f8d4fe8d7dfd1fdc66fa23a0b6d14fd10cf3
-  patches:
-    - 611.patch  # https://github.com/Qiskit/qiskit-ignis/pull/611
 
 build:
   noarch: python
